@@ -75,6 +75,7 @@
             @foreach ($posts as $post)
             <h>{{ $post->subject }}</h>
             <p>{{ $post->contents }}</p>
+            @endforeach
         </div>
     </div>
 </div>
